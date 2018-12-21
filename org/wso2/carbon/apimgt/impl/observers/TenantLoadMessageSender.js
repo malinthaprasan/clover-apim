@@ -1,0 +1,10 @@
+var clover = new Object();
+
+// JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
+clover.pageData = {"classes":[{"el":142,"id":31872,"methods":[{"el":46,"sc":5,"sl":40},{"el":62,"sc":5,"sl":48},{"el":99,"sc":5,"sl":73},{"el":108,"sc":5,"sl":106},{"el":117,"sc":5,"sl":115},{"el":127,"sc":5,"sl":124},{"el":131,"sc":5,"sl":129},{"el":141,"sc":5,"sl":139}],"name":"TenantLoadMessageSender","sl":36}]}
+
+// JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
+clover.testTargets = {"test_147":{"methods":[{"sl":40},{"sl":139}],"name":"LoginWithEmailUserNameTestCase","pass":true,"statements":[{"sl":41},{"sl":42},{"sl":43},{"sl":140}]},"test_196":{"methods":[{"sl":40},{"sl":139}],"name":"testSDKGeneration","pass":true,"statements":[{"sl":41},{"sl":42},{"sl":43},{"sl":140}]},"test_309":{"methods":[{"sl":40},{"sl":139}],"name":"testPagination","pass":true,"statements":[{"sl":41},{"sl":42},{"sl":43},{"sl":140}]},"test_333":{"methods":[{"sl":40},{"sl":139}],"name":"CheckAccessControlAllowCredentialsHeadersWithSpecificOrigin","pass":true,"statements":[{"sl":41},{"sl":42},{"sl":43},{"sl":140}]},"test_399":{"methods":[{"sl":40},{"sl":139}],"name":"CheckAccessControlAllowCredentialsHeadersWithAnyOrigin","pass":true,"statements":[{"sl":41},{"sl":42},{"sl":43},{"sl":140}]}}
+
+// JSON: { lines : [{tests : [testid1, testid2, testid3, ...]}, ...]};
+clover.srcFileLines = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [333, 196, 399, 309, 147], [333, 196, 399, 309, 147], [333, 196, 399, 309, 147], [333, 196, 399, 309, 147], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [333, 196, 399, 309, 147], [333, 196, 399, 309, 147], [], []]
