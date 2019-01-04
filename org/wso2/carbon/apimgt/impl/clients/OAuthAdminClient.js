@@ -1,7 +1,7 @@
 var clover = new Object();
 
 // JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
-clover.pageData = {"classes":[{"el":108,"id":11864,"methods":[{"el":67,"sc":5,"sl":45},{"el":72,"sc":5,"sl":69},{"el":78,"sc":5,"sl":74},{"el":83,"sc":5,"sl":80},{"el":89,"sc":5,"sl":85},{"el":96,"sc":5,"sl":91},{"el":101,"sc":5,"sl":98},{"el":106,"sc":5,"sl":103}],"name":"OAuthAdminClient","sl":36}]}
+clover.pageData = {"classes":[{"el":108,"id":14247,"methods":[{"el":67,"sc":5,"sl":45},{"el":72,"sc":5,"sl":69},{"el":78,"sc":5,"sl":74},{"el":83,"sc":5,"sl":80},{"el":89,"sc":5,"sl":85},{"el":96,"sc":5,"sl":91},{"el":101,"sc":5,"sl":98},{"el":106,"sc":5,"sl":103}],"name":"OAuthAdminClient","sl":36}]}
 
 // JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
 clover.testTargets = {}

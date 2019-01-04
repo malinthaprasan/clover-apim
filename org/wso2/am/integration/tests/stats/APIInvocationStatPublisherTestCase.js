@@ -1,7 +1,7 @@
 var clover = new Object();
 
 // JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
-clover.pageData = {"classes":[{"el":785,"id":55743,"methods":[{"el":92,"sc":5,"sl":89},{"el":114,"sc":5,"sl":94},{"el":184,"sc":5,"sl":116},{"el":222,"sc":5,"sl":186},{"el":237,"sc":5,"sl":224},{"el":274,"sc":5,"sl":239},{"el":349,"sc":5,"sl":276},{"el":420,"sc":5,"sl":352},{"el":426,"sc":5,"sl":422},{"el":432,"sc":5,"sl":428},{"el":489,"sc":5,"sl":439},{"el":538,"sc":5,"sl":496},{"el":597,"sc":5,"sl":545},{"el":649,"sc":5,"sl":604},{"el":683,"sc":5,"sl":656},{"el":725,"sc":5,"sl":690},{"el":765,"sc":5,"sl":732},{"el":784,"sc":5,"sl":775}],"name":"APIInvocationStatPublisherTestCase","sl":63}]}
+clover.pageData = {"classes":[{"el":785,"id":111711,"methods":[{"el":92,"sc":5,"sl":89},{"el":114,"sc":5,"sl":94},{"el":184,"sc":5,"sl":116},{"el":222,"sc":5,"sl":186},{"el":237,"sc":5,"sl":224},{"el":274,"sc":5,"sl":239},{"el":349,"sc":5,"sl":276},{"el":420,"sc":5,"sl":352},{"el":426,"sc":5,"sl":422},{"el":432,"sc":5,"sl":428},{"el":489,"sc":5,"sl":439},{"el":538,"sc":5,"sl":496},{"el":597,"sc":5,"sl":545},{"el":649,"sc":5,"sl":604},{"el":683,"sc":5,"sl":656},{"el":725,"sc":5,"sl":690},{"el":765,"sc":5,"sl":732},{"el":784,"sc":5,"sl":775}],"name":"APIInvocationStatPublisherTestCase","sl":63}]}
 
 // JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
 clover.testTargets = {}

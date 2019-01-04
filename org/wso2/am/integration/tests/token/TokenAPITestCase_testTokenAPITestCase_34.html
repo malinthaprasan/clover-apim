@@ -1,0 +1,2835 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    
+    
+    <link rel="SHORTCUT ICON" href="../../../../../../img/clover.ico" />
+
+    <link rel="stylesheet" href="../../../../../../aui/css/aui.min.css" media="all"/>
+    <link rel="stylesheet" href="../../../../../../aui/css/aui-experimental.min.css" media="all"/>
+    <!--[if IE 9]><link rel="stylesheet" href="../../../../../../aui/css/aui-ie9.min.css" media="all"/><![endif]-->
+
+    <style type="text/css" media="all">
+        @import url('../../../../../../style.css');
+        @import url('../../../../../../tree.css');
+        
+    </style>
+
+    <script src="../../../../../../jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="../../../../../../aui/js/aui.min.js" type="text/javascript"></script>
+    <script src="../../../../../../aui/js/aui-experimental.min.js" type="text/javascript"></script>
+    <script src="../../../../../../aui/js/aui-soy.min.js" type="text/javascript"></script>
+
+    <script src="../../../../../../package-nodes-tree.js" type="text/javascript"></script>
+    <script src="../../../../../../clover-tree.js" type="text/javascript"></script>
+    <script src="../../../../../../clover.js" type="text/javascript"></script>
+    <script src="../../../../../../clover-descriptions.js" type="text/javascript"></script>
+    <script src="../../../../../../cloud.js" type="text/javascript"></script>
+
+            <title>WSO2 API Manager - Based on product backend Test Module 2.6.0</title>
+    </head>
+
+
+<body>
+    <div id="page">
+        
+        
+
+
+<header id="header" role="banner">
+    <nav class="aui-header aui-dropdown2-trigger-group" role="navigation">
+        <div class="aui-header-inner">
+            <div class="aui-header-primary">
+                <h1 id="logo" class="aui-header-logo aui-header-logo-clover">
+                    <a href="http://openclover.org" title="Visit OpenClover home page"><span class="aui-header-logo-device">OpenClover</span></a>
+                </h1>
+                            </div>
+            <div class="aui-header-secondary">
+                <ul class="aui-nav">
+                    <li id="system-help-menu">
+                        <a class="aui-nav-link" title="Open online documentation" target="_blank"
+                           href="http://openclover.org/documentation">
+                            <span class="aui-icon aui-icon-small aui-iconfont-help">&#160;Help</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+        
+        <div class="aui-page-panel">
+            <div class="aui-page-panel-inner">
+                <div class="aui-page-panel-nav aui-page-panel-nav-clover">
+                    
+
+<div class="aui-page-header-inner" style="margin-bottom: 20px;">
+    <div class="aui-page-header-image">
+                    <a href="http://wso2.com/products/api-manager/modules/integration/org.wso2.carbon.am.integration.test/org.wso2.carbon.am.integration.backend.test" target="_top">
+                <div class="aui-avatar aui-avatar-large aui-avatar-project">
+            <div class="aui-avatar-inner">
+                                    <img src="../../../../../../img/clover_logo_large.png" alt="Clover icon"/>
+                            </div>
+        </div>
+                    </a>
+            </div>
+    <div class="aui-page-header-main" >
+        <h1>
+                            <a href="http://wso2.com/products/api-manager/modules/integration/org.wso2.carbon.am.integration.test/org.wso2.carbon.am.integration.backend.test" target="_top">
+                                        WSO2 API Manager - Based on product backend Test Module 2.6.0
+                                        </a>
+                    </h1>
+    </div>
+</div>
+
+<nav class="aui-navgroup aui-navgroup-vertical">
+    <div class="aui-navgroup-inner">
+                                            <ul class="aui-nav">
+                <li class="">
+                    <a href="../../../../../../dashboard.html">Project overview</a>
+                </li>
+            </ul>
+        
+                <div class="aui-nav-heading packages-nav-heading">
+            <strong>Packages</strong>
+        </div>
+        <div class="aui-nav project-packages">
+            <form method="get" action="#" class="aui package-filter-container">
+                <input type="text" autocomplete="off" class="package-filter text"
+                       placeholder="Type to filter packages..." name="package-filter" id="package-filter"
+                       title="Start typing package name (or part of the name) to search through the tree. Use arrow keys and the Enter key to navigate."/>
+            </form>
+            <p class="package-filter-no-results-message hidden">
+                <small>No results found.</small>
+            </p>
+                                                <div class="packages-tree-wrapper" data-root-relative="../../../../../../" data-package-name="org.wso2.am.integration.tests.token">
+                <div class="packages-tree-container"></div>
+                <div class="clover-packages-lozenges"></div>
+            </div>
+        </div>
+        
+            </div>
+</nav>                </div>
+                <section class="aui-page-panel-content">
+                    <div class="aui-page-panel-content-clover">
+
+                    
+                    <div class="aui-page-header-main"><ol class="aui-nav aui-nav-breadcrumbs">
+    
+    <li><a href="../../../../../../dashboard.html"> Project Clover database Fri Jan 4 2019 00:58:17 IST</a></li>
+     <li><a href="test-pkg-summary.html">Package org.wso2.am.integration.tests.token</a></li>
+     <li><a href="test-TokenAPITestCase.html">Class TokenAPITestCase</a></li>
+</ol></div>
+    
+<h1 class="aui-h2-clover">
+                        
+            Test testTokenAPITestCase
+            </h1>
+
+
+<table class="aui">
+    <thead>
+        <tr>
+            <th>Test</th>
+                        <th><label title="The test result. Either a Pass, Fail or Error.">Status</label></th>
+            <th><label title="When the test execution was started">Start time</label></th>
+            <th><label title="The total time in seconds taken to run this test.">Time (seconds)</label></th>
+            <th><label title="A failure or error message if the test is not successful.">Message</label></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <a  href="../../../../../../org/wso2/am/integration/tests/token/TokenAPITestCase.html?line=88#src-88" >testTokenAPITestCase</a>
+            </td>
+                        <td>
+                                          <span class="sortValue">1</span><span class="aui-lozenge aui-lozenge-success">PASS</span>
+                              </td>
+            <td>
+                4 Jan 01:46:24
+            </td>
+            <td>
+                12.74            </td>
+            <td>
+                <div></div>
+                <div class="errorMessage"></div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div>&#160;</div>
+
+    <table class="aui aui-table-sortable">
+        <thead>
+            <tr>
+                <th style="white-space:nowrap;"><label title="A class that was directly hit by this test.">Target Class</label></th>
+                                <th colspan="4"><label title="The percentage of coverage contributed by each single test.">Coverage contributed by</label> testTokenAPITestCase</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.SubscriptionResponse</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/SubscriptionResponse.html?id=112#SubscriptionResponse"             title="SubscriptionResponse" name="sl-24">org.wso2.carbon.apimgt.api.model.SubscriptionResponse</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationInfoDTO.APIKeyValidationInfoDTOStandardSchemeFactory</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationInfoDTO.html?id=112#APIKeyValidationInfoDTO.APIKeyValidationInfoDTOStandardSchemeFactory"             title="APIKeyValidationInfoDTO.APIKeyValidationInfoDTOStandardSchemeFactory" name="sl-2094">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationInfoDTO.APIKeyValidationInfoDTOStandardSchemeFactory</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_args.validateKey_argsStandardSchemeFactory</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.validateKey_args.validateKey_argsStandardSchemeFactory"             title="APIKeyValidationService.validateKey_args.validateKey_argsStandardSchemeFactory" name="sl-1266">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_args.validateKey_argsStandardSchemeFactory</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_result.validateKey_resultStandardSchemeFactory</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.validateKey_result.validateKey_resultStandardSchemeFactory"             title="APIKeyValidationService.validateKey_result.validateKey_resultStandardSchemeFactory" name="sl-1885">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_result.validateKey_resultStandardSchemeFactory</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_args.getAllURITemplates_argsStandardSchemeFactory</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.getAllURITemplates_args.getAllURITemplates_argsStandardSchemeFactory"             title="APIKeyValidationService.getAllURITemplates_args.getAllURITemplates_argsStandardSchemeFactory" name="sl-2453">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_args.getAllURITemplates_argsStandardSchemeFactory</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_result.getAllURITemplates_resultStandardSchemeFactory</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.getAllURITemplates_result.getAllURITemplates_resultStandardSchemeFactory"             title="APIKeyValidationService.getAllURITemplates_result.getAllURITemplates_resultStandardSchemeFactory" name="sl-3002">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_result.getAllURITemplates_resultStandardSchemeFactory</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.ConditionGroupDTO.ConditionGroupDTOStandardSchemeFactory</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/ConditionGroupDTO.html?id=112#ConditionGroupDTO.ConditionGroupDTOStandardSchemeFactory"             title="ConditionGroupDTO.ConditionGroupDTOStandardSchemeFactory" name="sl-390">org.wso2.carbon.apimgt.impl.generated.thrift.ConditionGroupDTO.ConditionGroupDTOStandardSchemeFactory</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.URITemplate.URITemplateStandardSchemeFactory</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/URITemplate.html?id=112#URITemplate.URITemplateStandardSchemeFactory"             title="URITemplate.URITemplateStandardSchemeFactory" name="sl-949">org.wso2.carbon.apimgt.impl.generated.thrift.URITemplate.URITemplateStandardSchemeFactory</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.workflow.GeneralWorkflowResponse</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/workflow/GeneralWorkflowResponse.html?id=112#GeneralWorkflowResponse"             title="GeneralWorkflowResponse" name="sl-25">org.wso2.carbon.apimgt.impl.workflow.GeneralWorkflowResponse</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.ConfigContextDecorator</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/ConfigContextDecorator.html?id=112#ConfigContextDecorator"             title="ConfigContextDecorator" name="sl-25">org.wso2.carbon.apimgt.impl.template.ConfigContextDecorator</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.EnvironmentConfigContext</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/EnvironmentConfigContext.html?id=112#EnvironmentConfigContext"             title="EnvironmentConfigContext" name="sl-25">org.wso2.carbon.apimgt.impl.template.EnvironmentConfigContext</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.HandlerConfigContex</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/HandlerConfigContex.html?id=112#HandlerConfigContex"             title="HandlerConfigContex" name="sl-26">org.wso2.carbon.apimgt.impl.template.HandlerConfigContex</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.JwtConfigContext</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/JwtConfigContext.html?id=112#JwtConfigContext"             title="JwtConfigContext" name="sl-25">org.wso2.carbon.apimgt.impl.template.JwtConfigContext</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.SecurityConfigContext</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/SecurityConfigContext.html?id=112#SecurityConfigContext"             title="SecurityConfigContext" name="sl-28">org.wso2.carbon.apimgt.impl.template.SecurityConfigContext</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.TemplateUtilContext</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/TemplateUtilContext.html?id=112#TemplateUtilContext"             title="TemplateUtilContext" name="sl-25">org.wso2.carbon.apimgt.impl.template.TemplateUtilContext</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.dto.APIData</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/dto/APIData.html?id=112#APIData"             title="APIData" name="sl-3">org.wso2.carbon.apimgt.gateway.dto.APIData</a>
+        </td>
+                <td>
+            <span class="sortValue">1.0</span>100%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="100% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:100%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.indexing.indexer.XMLIndexer</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/indexing/indexer/XMLIndexer.html?id=112#XMLIndexer"             title="XMLIndexer" name="sl-19">org.wso2.carbon.apimgt.impl.indexing.indexer.XMLIndexer</a>
+        </td>
+                <td>
+            <span class="sortValue">0.9166667</span>91.7%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="91.7% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:91.7%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.utils.APIVersionTokenizer</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/utils/APIVersionTokenizer.html?id=112#APIVersionTokenizer"             title="APIVersionTokenizer" name="sl-23">org.wso2.carbon.apimgt.impl.utils.APIVersionTokenizer</a>
+        </td>
+                <td>
+            <span class="sortValue">0.90697676</span>90.7%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="90.7% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:90.7%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.dto.ResourceData</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/dto/ResourceData.html?id=112#ResourceData"             title="ResourceData" name="sl-5">org.wso2.carbon.apimgt.gateway.dto.ResourceData</a>
+        </td>
+                <td>
+            <span class="sortValue">0.90625</span>90.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="90.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:90.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.EndpointConfigContext</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/EndpointConfigContext.html?id=112#EndpointConfigContext"             title="EndpointConfigContext" name="sl-29">org.wso2.carbon.apimgt.impl.template.EndpointConfigContext</a>
+        </td>
+                <td>
+            <span class="sortValue">0.9047619</span>90.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="90.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:90.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.common.SynapsePropertiesHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/common/SynapsePropertiesHandler.html?id=112#SynapsePropertiesHandler"             title="SynapsePropertiesHandler" name="sl-26">org.wso2.carbon.apimgt.gateway.handlers.common.SynapsePropertiesHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.875</span>87.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="87.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:87.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.handlers.ExtendedClientCredentialsGrantHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/handlers/ExtendedClientCredentialsGrantHandler.html?id=112#ExtendedClientCredentialsGrantHandler"             title="ExtendedClientCredentialsGrantHandler" name="sl-32">org.wso2.carbon.apimgt.keymgt.handlers.ExtendedClientCredentialsGrantHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.8717949</span>87.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="87.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:87.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.AuthenticationContext</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/AuthenticationContext.html?id=112#AuthenticationContext"             title="AuthenticationContext" name="sl-26">org.wso2.carbon.apimgt.gateway.handlers.security.AuthenticationContext</a>
+        </td>
+                <td>
+            <span class="sortValue">0.8611111</span>86.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="86.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:86.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.utils.AbstractAPIGatewayAdminClient</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/utils/AbstractAPIGatewayAdminClient.html?id=112#AbstractAPIGatewayAdminClient"             title="AbstractAPIGatewayAdminClient" name="sl-38">org.wso2.carbon.apimgt.impl.utils.AbstractAPIGatewayAdminClient</a>
+        </td>
+                <td>
+            <span class="sortValue">0.83870965</span>83.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="83.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:83.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.BAMMediatorConfigContext</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/BAMMediatorConfigContext.html?id=112#BAMMediatorConfigContext"             title="BAMMediatorConfigContext" name="sl-10">org.wso2.carbon.apimgt.impl.template.BAMMediatorConfigContext</a>
+        </td>
+                <td>
+            <span class="sortValue">0.8333333</span>83.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="83.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:83.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.APIConfigContext</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/APIConfigContext.html?id=112#APIConfigContext"             title="APIConfigContext" name="sl-27">org.wso2.carbon.apimgt.impl.template.APIConfigContext</a>
+        </td>
+                <td>
+            <span class="sortValue">0.82608694</span>82.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="82.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:82.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_args.getAllURITemplates_argsStandardScheme</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.getAllURITemplates_args.getAllURITemplates_argsStandardScheme"             title="APIKeyValidationService.getAllURITemplates_args.getAllURITemplates_argsStandardScheme" name="sl-2459">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_args.getAllURITemplates_argsStandardScheme</a>
+        </td>
+                <td>
+            <span class="sortValue">0.82258064</span>82.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="82.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:82.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.ext.APIManagerExtensionHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/ext/APIManagerExtensionHandler.html?id=112#APIManagerExtensionHandler"             title="APIManagerExtensionHandler" name="sl-45">org.wso2.carbon.apimgt.gateway.handlers.ext.APIManagerExtensionHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.8055556</span>80.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="80.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:80.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.policy.Limit</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/policy/Limit.html?id=112#Limit"             title="Limit" name="sl-21">org.wso2.carbon.apimgt.api.model.policy.Limit</a>
+        </td>
+                <td>
+            <span class="sortValue">0.8</span>80%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="80% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:80%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.dto.APIKeyValidationInfoDTO</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/dto/APIKeyValidationInfoDTO.html?id=112#APIKeyValidationInfoDTO"             title="APIKeyValidationInfoDTO" name="sl-30">org.wso2.carbon.apimgt.impl.dto.APIKeyValidationInfoDTO</a>
+        </td>
+                <td>
+            <span class="sortValue">0.8</span>80%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="80% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:80%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.OAuthApplicationInfo</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/OAuthApplicationInfo.html?id=112#OAuthApplicationInfo"             title="OAuthApplicationInfo" name="sl-31">org.wso2.carbon.apimgt.api.model.OAuthApplicationInfo</a>
+        </td>
+                <td>
+            <span class="sortValue">0.79310346</span>79.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="79.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:79.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.service.TokenValidationContext</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/service/TokenValidationContext.html?id=112#TokenValidationContext"             title="TokenValidationContext" name="sl-32">org.wso2.carbon.apimgt.keymgt.service.TokenValidationContext</a>
+        </td>
+                <td>
+            <span class="sortValue">0.7916667</span>79.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="79.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:79.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.AccessTokenInfo</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/AccessTokenInfo.html?id=112#AccessTokenInfo"             title="AccessTokenInfo" name="sl-31">org.wso2.carbon.apimgt.api.model.AccessTokenInfo</a>
+        </td>
+                <td>
+            <span class="sortValue">0.7586207</span>75.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="75.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:75.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.API</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/API.html?id=112#API"             title="API" name="sl-34">org.wso2.carbon.apimgt.api.model.API</a>
+        </td>
+                <td>
+            <span class="sortValue">0.7533784</span>75.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="75.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:75.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.APIStateChangeResponse</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/APIStateChangeResponse.html?id=112#APIStateChangeResponse"             title="APIStateChangeResponse" name="sl-21">org.wso2.carbon.apimgt.api.model.APIStateChangeResponse</a>
+        </td>
+                <td>
+            <span class="sortValue">0.75</span>75%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="75% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:75%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.LifeCycleEvent</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/LifeCycleEvent.html?id=112#LifeCycleEvent"             title="LifeCycleEvent" name="sl-21">org.wso2.carbon.apimgt.api.model.LifeCycleEvent</a>
+        </td>
+                <td>
+            <span class="sortValue">0.75</span>75%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="75% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:75%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.OAuthAppRequest</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/OAuthAppRequest.html?id=112#OAuthAppRequest"             title="OAuthAppRequest" name="sl-24">org.wso2.carbon.apimgt.api.model.OAuthAppRequest</a>
+        </td>
+                <td>
+            <span class="sortValue">0.75</span>75%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="75% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:75%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.dto.ConditionGroupDTO</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/dto/ConditionGroupDTO.html?id=112#ConditionGroupDTO"             title="ConditionGroupDTO" name="sl-29">org.wso2.carbon.apimgt.api.dto.ConditionGroupDTO</a>
+        </td>
+                <td>
+            <span class="sortValue">0.75</span>75%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="75% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:75%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.ResponseCacheConfigContext</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/ResponseCacheConfigContext.html?id=112#ResponseCacheConfigContext"             title="ResponseCacheConfigContext" name="sl-10">org.wso2.carbon.apimgt.impl.template.ResponseCacheConfigContext</a>
+        </td>
+                <td>
+            <span class="sortValue">0.75</span>75%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="75% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:75%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.analytics.APIMgtGoogleAnalyticsTrackingHandler.GoogleAnalyticsConfig</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/analytics/APIMgtGoogleAnalyticsTrackingHandler.html?id=112#APIMgtGoogleAnalyticsTrackingHandler.GoogleAnalyticsConfig"             title="APIMgtGoogleAnalyticsTrackingHandler.GoogleAnalyticsConfig" name="sl-251">org.wso2.carbon.apimgt.gateway.handlers.analytics.APIMgtGoogleAnalyticsTrackingHandler.GoogleAnalyticsConfig</a>
+        </td>
+                <td>
+            <span class="sortValue">0.75</span>75%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="75% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:75%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.ThriftAuthClient</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/thrift/ThriftAuthClient.html?id=112#ThriftAuthClient"             title="ThriftAuthClient" name="sl-32">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.ThriftAuthClient</a>
+        </td>
+                <td>
+            <span class="sortValue">0.7407407</span>74.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="74.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:74.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_args.validateKey_argsStandardScheme</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.validateKey_args.validateKey_argsStandardScheme"             title="APIKeyValidationService.validateKey_args.validateKey_argsStandardScheme" name="sl-1272">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_args.validateKey_argsStandardScheme</a>
+        </td>
+                <td>
+            <span class="sortValue">0.7348485</span>73.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="73.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:73.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.dto.ApplicationRegistrationWorkflowDTO</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/dto/ApplicationRegistrationWorkflowDTO.html?id=112#ApplicationRegistrationWorkflowDTO"             title="ApplicationRegistrationWorkflowDTO" name="sl-28">org.wso2.carbon.apimgt.impl.dto.ApplicationRegistrationWorkflowDTO</a>
+        </td>
+                <td>
+            <span class="sortValue">0.7288136</span>72.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="72.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:72.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.policy.Policy</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/policy/Policy.html?id=112#Policy"             title="Policy" name="sl-25">org.wso2.carbon.apimgt.api.model.policy.Policy</a>
+        </td>
+                <td>
+            <span class="sortValue">0.7209302</span>72.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="72.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:72.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.TransportConfigContext</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/TransportConfigContext.html?id=112#TransportConfigContext"             title="TransportConfigContext" name="sl-15">org.wso2.carbon.apimgt.impl.template.TransportConfigContext</a>
+        </td>
+                <td>
+            <span class="sortValue">0.7058824</span>70.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="70.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:70.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.URITemplate.URITemplateStandardScheme</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/URITemplate.html?id=112#URITemplate.URITemplateStandardScheme"             title="URITemplate.URITemplateStandardScheme" name="sl-955">org.wso2.carbon.apimgt.impl.generated.thrift.URITemplate.URITemplateStandardScheme</a>
+        </td>
+                <td>
+            <span class="sortValue">0.6938776</span>69.4%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="69.4% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:69.4%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.HandlerConfig</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/HandlerConfig.html?id=112#HandlerConfig"             title="HandlerConfig" name="sl-24">org.wso2.carbon.apimgt.impl.template.HandlerConfig</a>
+        </td>
+                <td>
+            <span class="sortValue">0.6923077</span>69.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="69.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:69.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.ThriftKeyValidatorClient</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/thrift/ThriftKeyValidatorClient.html?id=112#ThriftKeyValidatorClient"             title="ThriftKeyValidatorClient" name="sl-39">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.ThriftKeyValidatorClient</a>
+        </td>
+                <td>
+            <span class="sortValue">0.682243</span>68.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="68.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:68.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.policy.RequestCountLimit</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/policy/RequestCountLimit.html?id=112#RequestCountLimit"             title="RequestCountLimit" name="sl-22">org.wso2.carbon.apimgt.api.model.policy.RequestCountLimit</a>
+        </td>
+                <td>
+            <span class="sortValue">0.6666667</span>66.7%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="66.7% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:66.7%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.APIManagerConfigurationServiceImpl</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/APIManagerConfigurationServiceImpl.html?id=112#APIManagerConfigurationServiceImpl"             title="APIManagerConfigurationServiceImpl" name="sl-19">org.wso2.carbon.apimgt.impl.APIManagerConfigurationServiceImpl</a>
+        </td>
+                <td>
+            <span class="sortValue">0.6666667</span>66.7%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="66.7% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:66.7%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.AuthenticatorService.Client</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/thrift/AuthenticatorService.html?id=112#AuthenticatorService.Client"             title="AuthenticatorService.Client" name="sl-33">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.AuthenticatorService.Client</a>
+        </td>
+                <td>
+            <span class="sortValue">0.6666667</span>66.7%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="66.7% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:66.7%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.common.APIMgtLatencyStatsHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/common/APIMgtLatencyStatsHandler.html?id=112#APIMgtLatencyStatsHandler"             title="APIMgtLatencyStatsHandler" name="sl-28">org.wso2.carbon.apimgt.gateway.handlers.common.APIMgtLatencyStatsHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.65217394</span>65.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="65.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:65.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationInfoDTO.APIKeyValidationInfoDTOStandardScheme</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationInfoDTO.html?id=112#APIKeyValidationInfoDTO.APIKeyValidationInfoDTOStandardScheme"             title="APIKeyValidationInfoDTO.APIKeyValidationInfoDTOStandardScheme" name="sl-2100">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationInfoDTO.APIKeyValidationInfoDTOStandardScheme</a>
+        </td>
+                <td>
+            <span class="sortValue">0.6454545</span>64.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="64.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:64.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.workflow.ApplicationRegistrationSimpleWorkflowExecutor</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/workflow/ApplicationRegistrationSimpleWorkflowExecutor.html?id=112#ApplicationRegistrationSimpleWorkflowExecutor"             title="ApplicationRegistrationSimpleWorkflowExecutor" name="sl-35">org.wso2.carbon.apimgt.impl.workflow.ApplicationRegistrationSimpleWorkflowExecutor</a>
+        </td>
+                <td>
+            <span class="sortValue">0.64</span>64%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="64% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:64%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.executors.APIExecutor</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/executors/APIExecutor.html?id=112#APIExecutor"             title="APIExecutor" name="sl-63">org.wso2.carbon.apimgt.impl.executors.APIExecutor</a>
+        </td>
+                <td>
+            <span class="sortValue">0.6396396</span>64%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="64% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:64%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.Processor.validateKey</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.Processor.validateKey"             title="APIKeyValidationService.Processor.validateKey" name="sl-367">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.Processor.validateKey</a>
+        </td>
+                <td>
+            <span class="sortValue">0.6363636</span>63.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="63.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:63.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.Processor.getAllURITemplates</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.Processor.getAllURITemplates"             title="APIKeyValidationService.Processor.getAllURITemplates" name="sl-389">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.Processor.getAllURITemplates</a>
+        </td>
+                <td>
+            <span class="sortValue">0.6363636</span>63.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="63.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:63.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.workflow.APIStateChangeSimpleWorkflowExecutor</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/workflow/APIStateChangeSimpleWorkflowExecutor.html?id=112#APIStateChangeSimpleWorkflowExecutor"             title="APIStateChangeSimpleWorkflowExecutor" name="sl-42">org.wso2.carbon.apimgt.impl.workflow.APIStateChangeSimpleWorkflowExecutor</a>
+        </td>
+                <td>
+            <span class="sortValue">0.6363636</span>63.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="63.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:63.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.workflow.SubscriptionCreationSimpleWorkflowExecutor</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/workflow/SubscriptionCreationSimpleWorkflowExecutor.html?id=112#SubscriptionCreationSimpleWorkflowExecutor"             title="SubscriptionCreationSimpleWorkflowExecutor" name="sl-31">org.wso2.carbon.apimgt.impl.workflow.SubscriptionCreationSimpleWorkflowExecutor</a>
+        </td>
+                <td>
+            <span class="sortValue">0.625</span>62.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="62.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:62.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.EndpointBckConfigContext</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/EndpointBckConfigContext.html?id=112#EndpointBckConfigContext"             title="EndpointBckConfigContext" name="sl-24">org.wso2.carbon.apimgt.impl.template.EndpointBckConfigContext</a>
+        </td>
+                <td>
+            <span class="sortValue">0.625</span>62.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="62.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:62.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.APISecurityException</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/APISecurityException.html?id=112#APISecurityException"             title="APISecurityException" name="sl-23">org.wso2.carbon.apimgt.gateway.handlers.security.APISecurityException</a>
+        </td>
+                <td>
+            <span class="sortValue">0.625</span>62.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="62.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:62.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.Subscriber</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/Subscriber.html?id=112#Subscriber"             title="Subscriber" name="sl-29">org.wso2.carbon.apimgt.api.model.Subscriber</a>
+        </td>
+                <td>
+            <span class="sortValue">0.61538464</span>61.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="61.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:61.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.ThriftUtils</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/thrift/ThriftUtils.html?id=112#ThriftUtils"             title="ThriftUtils" name="sl-30">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.ThriftUtils</a>
+        </td>
+                <td>
+            <span class="sortValue">0.6103896</span>61%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="61% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:61%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.policy.QuotaPolicy</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/policy/QuotaPolicy.html?id=112#QuotaPolicy"             title="QuotaPolicy" name="sl-22">org.wso2.carbon.apimgt.api.model.policy.QuotaPolicy</a>
+        </td>
+                <td>
+            <span class="sortValue">0.6</span>60%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="60% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:60%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.utils.APINameComparator</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/utils/APINameComparator.html?id=112#APINameComparator"             title="APINameComparator" name="sl-33">org.wso2.carbon.apimgt.impl.utils.APINameComparator</a>
+        </td>
+                <td>
+            <span class="sortValue">0.6</span>60%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="60% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:60%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.ScopesIssuer</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/ScopesIssuer.html?id=112#ScopesIssuer"             title="ScopesIssuer" name="sl-33">org.wso2.carbon.apimgt.keymgt.ScopesIssuer</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5967742</span>59.7%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="59.7% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:59.7%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_result.getAllURITemplates_resultStandardScheme</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.getAllURITemplates_result.getAllURITemplates_resultStandardScheme"             title="APIKeyValidationService.getAllURITemplates_result.getAllURITemplates_resultStandardScheme" name="sl-3008">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_result.getAllURITemplates_resultStandardScheme</a>
+        </td>
+                <td>
+            <span class="sortValue">0.59210527</span>59.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="59.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:59.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.policy.SubscriptionPolicy</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/policy/SubscriptionPolicy.html?id=112#SubscriptionPolicy"             title="SubscriptionPolicy" name="sl-21">org.wso2.carbon.apimgt.api.model.policy.SubscriptionPolicy</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5833333</span>58.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="58.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:58.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.APIAuthenticationHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/APIAuthenticationHandler.html?id=112#APIAuthenticationHandler"             title="APIAuthenticationHandler" name="sl-74">org.wso2.carbon.apimgt.gateway.handlers.security.APIAuthenticationHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5827586</span>58.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="58.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:58.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.ThriftAPIDataStore</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/thrift/ThriftAPIDataStore.html?id=112#ThriftAPIDataStore"             title="ThriftAPIDataStore" name="sl-32">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.ThriftAPIDataStore</a>
+        </td>
+                <td>
+            <span class="sortValue">0.58064514</span>58.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="58.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:58.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.workflow.ApplicationCreationSimpleWorkflowExecutor</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/workflow/ApplicationCreationSimpleWorkflowExecutor.html?id=112#ApplicationCreationSimpleWorkflowExecutor"             title="ApplicationCreationSimpleWorkflowExecutor" name="sl-36">org.wso2.carbon.apimgt.impl.workflow.ApplicationCreationSimpleWorkflowExecutor</a>
+        </td>
+                <td>
+            <span class="sortValue">0.57894737</span>57.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="57.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:57.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.utils.APIVersionComparator</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/utils/APIVersionComparator.html?id=112#APIVersionComparator"             title="APIVersionComparator" name="sl-45">org.wso2.carbon.apimgt.impl.utils.APIVersionComparator</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5714286</span>57.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="57.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:57.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.utils.ApplicationUtils</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/utils/ApplicationUtils.html?id=112#ApplicationUtils"             title="ApplicationUtils" name="sl-37">org.wso2.carbon.apimgt.impl.utils.ApplicationUtils</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5714286</span>57.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="57.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:57.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.internal.ServiceReferenceHolder</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/internal/ServiceReferenceHolder.html?id=112#ServiceReferenceHolder"             title="ServiceReferenceHolder" name="sl-21">org.wso2.carbon.apimgt.keymgt.internal.ServiceReferenceHolder</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5714286</span>57.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="57.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:57.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.throttling.publisher.ThrottleDataPublisher.DataPublisherThreadPoolExecutor</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/throttling/publisher/ThrottleDataPublisher.html?id=112#ThrottleDataPublisher.DataPublisherThreadPoolExecutor"             title="ThrottleDataPublisher.DataPublisherThreadPoolExecutor" name="sl-160">org.wso2.carbon.apimgt.gateway.throttling.publisher.ThrottleDataPublisher.DataPublisherThreadPoolExecutor</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5714286</span>57.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="57.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:57.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.handlers.DefaultKeyValidationHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/handlers/DefaultKeyValidationHandler.html?id=112#DefaultKeyValidationHandler"             title="DefaultKeyValidationHandler" name="sl-43">org.wso2.carbon.apimgt.keymgt.handlers.DefaultKeyValidationHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5675676</span>56.8%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="56.8% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:56.8%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.caching.CacheInvalidator</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/caching/CacheInvalidator.html?id=112#CacheInvalidator"             title="CacheInvalidator" name="sl-46">org.wso2.carbon.apimgt.impl.caching.CacheInvalidator</a>
+        </td>
+                <td>
+            <span class="sortValue">0.54545456</span>54.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="54.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:54.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.throttling.publisher.DataProcessAndPublishingAgent</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/throttling/publisher/DataProcessAndPublishingAgent.html?id=112#DataProcessAndPublishingAgent"             title="DataProcessAndPublishingAgent" name="sl-34">org.wso2.carbon.apimgt.gateway.throttling.publisher.DataProcessAndPublishingAgent</a>
+        </td>
+                <td>
+            <span class="sortValue">0.54545456</span>54.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="54.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:54.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.Application</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/Application.html?id=112#Application"             title="Application" name="sl-30">org.wso2.carbon.apimgt.api.model.Application</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5405405</span>54.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="54.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:54.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.CORSRequestHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/CORSRequestHandler.html?id=112#CORSRequestHandler"             title="CORSRequestHandler" name="sl-52">org.wso2.carbon.apimgt.gateway.handlers.security.CORSRequestHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5394191</span>53.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="53.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:53.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.issuers.RoleBasedScopesIssuer</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/issuers/RoleBasedScopesIssuer.html?id=112#RoleBasedScopesIssuer"             title="RoleBasedScopesIssuer" name="sl-49">org.wso2.carbon.apimgt.keymgt.issuers.RoleBasedScopesIssuer</a>
+        </td>
+                <td>
+            <span class="sortValue">0.53333336</span>53.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="53.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:53.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_result.validateKey_resultStandardScheme</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.validateKey_result.validateKey_resultStandardScheme"             title="APIKeyValidationService.validateKey_result.validateKey_resultStandardScheme" name="sl-1891">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_result.validateKey_resultStandardScheme</a>
+        </td>
+                <td>
+            <span class="sortValue">0.52307695</span>52.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="52.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:52.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.dto.WorkflowDTO</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/dto/WorkflowDTO.html?id=112#WorkflowDTO"             title="WorkflowDTO" name="sl-30">org.wso2.carbon.apimgt.impl.dto.WorkflowDTO</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5217391</span>52.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="52.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:52.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.oauth.OAuthAuthenticator</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/oauth/OAuthAuthenticator.html?id=112#OAuthAuthenticator"             title="OAuthAuthenticator" name="sl-50">org.wso2.carbon.apimgt.gateway.handlers.security.oauth.OAuthAuthenticator</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5214286</span>52.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="52.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:52.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.handlers.AbstractKeyValidationHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/handlers/AbstractKeyValidationHandler.html?id=112#AbstractKeyValidationHandler"             title="AbstractKeyValidationHandler" name="sl-33">org.wso2.carbon.apimgt.keymgt.handlers.AbstractKeyValidationHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.516129</span>51.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="51.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:51.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.ConditionGroupDTO.ConditionGroupDTOStandardScheme</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/ConditionGroupDTO.html?id=112#ConditionGroupDTO.ConditionGroupDTOStandardScheme"             title="ConditionGroupDTO.ConditionGroupDTOStandardScheme" name="sl-396">org.wso2.carbon.apimgt.impl.generated.thrift.ConditionGroupDTO.ConditionGroupDTOStandardScheme</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5</span>50%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="50% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:50%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.dto.ApplicationWorkflowDTO</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/dto/ApplicationWorkflowDTO.html?id=112#ApplicationWorkflowDTO"             title="ApplicationWorkflowDTO" name="sl-28">org.wso2.carbon.apimgt.impl.dto.ApplicationWorkflowDTO</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5</span>50%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="50% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:50%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.dto.SubscriptionWorkflowDTO</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/dto/SubscriptionWorkflowDTO.html?id=112#SubscriptionWorkflowDTO"             title="SubscriptionWorkflowDTO" name="sl-21">org.wso2.carbon.apimgt.impl.dto.SubscriptionWorkflowDTO</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5</span>50%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="50% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:50%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.analytics.APIMgtUsageHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/analytics/APIMgtUsageHandler.html?id=112#APIMgtUsageHandler"             title="APIMgtUsageHandler" name="sl-34">org.wso2.carbon.apimgt.gateway.handlers.analytics.APIMgtUsageHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.5</span>50%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="50% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:50%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.workflow.WorkflowExecutorFactory</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/workflow/WorkflowExecutorFactory.html?id=112#WorkflowExecutorFactory"             title="WorkflowExecutorFactory" name="sl-34">org.wso2.carbon.apimgt.impl.workflow.WorkflowExecutorFactory</a>
+        </td>
+                <td>
+            <span class="sortValue">0.49315068</span>49.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="49.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:49.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.dto.VerbInfoDTO</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/dto/VerbInfoDTO.html?id=112#VerbInfoDTO"             title="VerbInfoDTO" name="sl-10">org.wso2.carbon.apimgt.impl.dto.VerbInfoDTO</a>
+        </td>
+                <td>
+            <span class="sortValue">0.49019608</span>49%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="49% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:49%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.APIKeyValidator</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/APIKeyValidator.html?id=112#APIKeyValidator"             title="APIKeyValidator" name="sl-65">org.wso2.carbon.apimgt.gateway.handlers.security.APIKeyValidator</a>
+        </td>
+                <td>
+            <span class="sortValue">0.46799117</span>46.8%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="46.8% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:46.8%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.service.thrift.APIKeyValidationServiceImpl</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/service/thrift/APIKeyValidationServiceImpl.html?id=112#APIKeyValidationServiceImpl"             title="APIKeyValidationServiceImpl" name="sl-40">org.wso2.carbon.apimgt.keymgt.service.thrift.APIKeyValidationServiceImpl</a>
+        </td>
+                <td>
+            <span class="sortValue">0.4642857</span>46.4%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="46.4% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:46.4%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.APIMRegistryServiceImpl</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/APIMRegistryServiceImpl.html?id=112#APIMRegistryServiceImpl"             title="APIMRegistryServiceImpl" name="sl-33">org.wso2.carbon.apimgt.impl.APIMRegistryServiceImpl</a>
+        </td>
+                <td>
+            <span class="sortValue">0.45454547</span>45.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="45.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:45.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.throttling.publisher.ThrottleDataPublisherPool</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/throttling/publisher/ThrottleDataPublisherPool.html?id=112#ThrottleDataPublisherPool"             title="ThrottleDataPublisherPool" name="sl-34">org.wso2.carbon.apimgt.gateway.throttling.publisher.ThrottleDataPublisherPool</a>
+        </td>
+                <td>
+            <span class="sortValue">0.45</span>45%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="45% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:45%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.Client</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.Client"             title="APIKeyValidationService.Client" name="sl-60">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.Client</a>
+        </td>
+                <td>
+            <span class="sortValue">0.44554454</span>44.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="44.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:44.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.ResourceConfigContext</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/ResourceConfigContext.html?id=112#ResourceConfigContext"             title="ResourceConfigContext" name="sl-34">org.wso2.carbon.apimgt.impl.template.ResourceConfigContext</a>
+        </td>
+                <td>
+            <span class="sortValue">0.44117647</span>44.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="44.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:44.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.util.APIManagerOAuthCallbackHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/util/APIManagerOAuthCallbackHandler.html?id=112#APIManagerOAuthCallbackHandler"             title="APIManagerOAuthCallbackHandler" name="sl-32">org.wso2.carbon.apimgt.keymgt.util.APIManagerOAuthCallbackHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.42857143</span>42.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="42.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:42.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.template.APITemplateBuilderImpl</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/template/APITemplateBuilderImpl.html?id=112#APITemplateBuilderImpl"             title="APITemplateBuilderImpl" name="sl-53">org.wso2.carbon.apimgt.impl.template.APITemplateBuilderImpl</a>
+        </td>
+                <td>
+            <span class="sortValue">0.41358024</span>41.4%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="41.4% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:41.4%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.APISecurityUtils</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/APISecurityUtils.html?id=112#APISecurityUtils"             title="APISecurityUtils" name="sl-27">org.wso2.carbon.apimgt.gateway.handlers.security.APISecurityUtils</a>
+        </td>
+                <td>
+            <span class="sortValue">0.40625</span>40.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="40.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:40.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.dto.ResourceInfoDTO</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/dto/ResourceInfoDTO.html?id=112#ResourceInfoDTO"             title="ResourceInfoDTO" name="sl-21">org.wso2.carbon.apimgt.impl.dto.ResourceInfoDTO</a>
+        </td>
+                <td>
+            <span class="sortValue">0.4</span>40%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="40% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:40%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.internal.ServiceReferenceHolder</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/internal/ServiceReferenceHolder.html?id=112#ServiceReferenceHolder"             title="ServiceReferenceHolder" name="sl-28">org.wso2.carbon.apimgt.impl.internal.ServiceReferenceHolder</a>
+        </td>
+                <td>
+            <span class="sortValue">0.4</span>40%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="40% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:40%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.throttling.siddhi.extension.EmitOnStateChange</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/throttling/siddhi/extension/EmitOnStateChange.html?id=112#EmitOnStateChange"             title="EmitOnStateChange" name="sl-61">org.wso2.carbon.apimgt.throttling.siddhi.extension.EmitOnStateChange</a>
+        </td>
+                <td>
+            <span class="sortValue">0.3888889</span>38.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="38.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:38.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.dto.APIInfoDTO</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/dto/APIInfoDTO.html?id=112#APIInfoDTO"             title="APIInfoDTO" name="sl-27">org.wso2.carbon.apimgt.impl.dto.APIInfoDTO</a>
+        </td>
+                <td>
+            <span class="sortValue">0.3846154</span>38.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="38.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:38.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.AbstractKeyManager</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/AbstractKeyManager.html?id=112#AbstractKeyManager"             title="AbstractKeyManager" name="sl-41">org.wso2.carbon.apimgt.impl.AbstractKeyManager</a>
+        </td>
+                <td>
+            <span class="sortValue">0.3809524</span>38.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="38.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:38.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.AccessTokenRequest</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/AccessTokenRequest.html?id=112#AccessTokenRequest"             title="AccessTokenRequest" name="sl-29">org.wso2.carbon.apimgt.api.model.AccessTokenRequest</a>
+        </td>
+                <td>
+            <span class="sortValue">0.375</span>37.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="37.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:37.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.utils.APIVersionStringComparator</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/utils/APIVersionStringComparator.html?id=112#APIVersionStringComparator"             title="APIVersionStringComparator" name="sl-43">org.wso2.carbon.apimgt.impl.utils.APIVersionStringComparator</a>
+        </td>
+                <td>
+            <span class="sortValue">0.375</span>37.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="37.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:37.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.caching.CacheInvalidator.CacheInvalidationTask</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/caching/CacheInvalidator.html?id=112#CacheInvalidator.CacheInvalidationTask"             title="CacheInvalidator.CacheInvalidationTask" name="sl-84">org.wso2.carbon.apimgt.impl.caching.CacheInvalidator.CacheInvalidationTask</a>
+        </td>
+                <td>
+            <span class="sortValue">0.375</span>37.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="37.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:37.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.definitions.APIDefinitionFromOpenAPISpec</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/definitions/APIDefinitionFromOpenAPISpec.html?id=112#APIDefinitionFromOpenAPISpec"             title="APIDefinitionFromOpenAPISpec" name="sl-52">org.wso2.carbon.apimgt.impl.definitions.APIDefinitionFromOpenAPISpec</a>
+        </td>
+                <td>
+            <span class="sortValue">0.36567163</span>36.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="36.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:36.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.usage.publisher.internal.ServiceReferenceHolder</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/usage/publisher/internal/ServiceReferenceHolder.html?id=112#ServiceReferenceHolder"             title="ServiceReferenceHolder" name="sl-23">org.wso2.carbon.apimgt.usage.publisher.internal.ServiceReferenceHolder</a>
+        </td>
+                <td>
+            <span class="sortValue">0.36363637</span>36.4%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="36.4% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:36.4%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.APIIdentifier</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/APIIdentifier.html?id=112#APIIdentifier"             title="APIIdentifier" name="sl-30">org.wso2.carbon.apimgt.api.model.APIIdentifier</a>
+        </td>
+                <td>
+            <span class="sortValue">0.35555556</span>35.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="35.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:35.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.issuers.AbstractScopesIssuer</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/issuers/AbstractScopesIssuer.html?id=112#AbstractScopesIssuer"             title="AbstractScopesIssuer" name="sl-39">org.wso2.carbon.apimgt.keymgt.issuers.AbstractScopesIssuer</a>
+        </td>
+                <td>
+            <span class="sortValue">0.3548387</span>35.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="35.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:35.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.URITemplate</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/URITemplate.html?id=112#URITemplate"             title="URITemplate" name="sl-26">org.wso2.carbon.apimgt.api.model.URITemplate</a>
+        </td>
+                <td>
+            <span class="sortValue">0.3540856</span>35.4%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="35.4% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:35.4%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.AMDefaultKeyManagerImpl</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/AMDefaultKeyManagerImpl.html?id=112#AMDefaultKeyManagerImpl"             title="AMDefaultKeyManagerImpl" name="sl-78">org.wso2.carbon.apimgt.impl.AMDefaultKeyManagerImpl</a>
+        </td>
+                <td>
+            <span class="sortValue">0.34441805</span>34.4%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="34.4% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:34.4%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.mediators.APIMgtCommonExecutionPublisher</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/mediators/APIMgtCommonExecutionPublisher.html?id=112#APIMgtCommonExecutionPublisher"             title="APIMgtCommonExecutionPublisher" name="sl-29">org.wso2.carbon.apimgt.gateway.mediators.APIMgtCommonExecutionPublisher</a>
+        </td>
+                <td>
+            <span class="sortValue">0.34285715</span>34.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="34.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:34.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.throttling.publisher.ThrottleDataPublisher</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/throttling/publisher/ThrottleDataPublisher.html?id=112#ThrottleDataPublisher"             title="ThrottleDataPublisher" name="sl-47">org.wso2.carbon.apimgt.gateway.throttling.publisher.ThrottleDataPublisher</a>
+        </td>
+                <td>
+            <span class="sortValue">0.33333334</span>33.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="33.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:33.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.service.APIKeyValidationService</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/service/APIKeyValidationService.html?id=112#APIKeyValidationService"             title="APIKeyValidationService" name="sl-61">org.wso2.carbon.apimgt.keymgt.service.APIKeyValidationService</a>
+        </td>
+                <td>
+            <span class="sortValue">0.33173078</span>33.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="33.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:33.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.internal.ServiceReferenceHolder</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/internal/ServiceReferenceHolder.html?id=112#ServiceReferenceHolder"             title="ServiceReferenceHolder" name="sl-29">org.wso2.carbon.apimgt.gateway.internal.ServiceReferenceHolder</a>
+        </td>
+                <td>
+            <span class="sortValue">0.32258064</span>32.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="32.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:32.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.client.SubscriberKeyMgtClientPool</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/client/SubscriberKeyMgtClientPool.html?id=112#SubscriberKeyMgtClientPool"             title="SubscriberKeyMgtClientPool" name="sl-26">org.wso2.carbon.apimgt.keymgt.client.SubscriberKeyMgtClientPool</a>
+        </td>
+                <td>
+            <span class="sortValue">0.3181818</span>31.8%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="31.8% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:31.8%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.client.SubscriberKeyMgtClient</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/client/SubscriberKeyMgtClient.html?id=112#SubscriberKeyMgtClient"             title="SubscriberKeyMgtClient" name="sl-35">org.wso2.carbon.apimgt.keymgt.client.SubscriberKeyMgtClient</a>
+        </td>
+                <td>
+            <span class="sortValue">0.31578946</span>31.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="31.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:31.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.hostobjects.internal.ServiceReferenceHolder</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/hostobjects/internal/ServiceReferenceHolder.html?id=112#ServiceReferenceHolder"             title="ServiceReferenceHolder" name="sl-24">org.wso2.carbon.apimgt.hostobjects.internal.ServiceReferenceHolder</a>
+        </td>
+                <td>
+            <span class="sortValue">0.31578946</span>31.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="31.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:31.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.throttling.siddhi.extension.ThrottleStreamProcessor</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/throttling/siddhi/extension/ThrottleStreamProcessor.html?id=112#ThrottleStreamProcessor"             title="ThrottleStreamProcessor" name="sl-48">org.wso2.carbon.apimgt.throttling.siddhi.extension.ThrottleStreamProcessor</a>
+        </td>
+                <td>
+            <span class="sortValue">0.31578946</span>31.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="31.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:31.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.utils.APIMgtDBUtil</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/utils/APIMgtDBUtil.html?id=112#APIMgtDBUtil"             title="APIMgtDBUtil" name="sl-44">org.wso2.carbon.apimgt.impl.utils.APIMgtDBUtil</a>
+        </td>
+                <td>
+            <span class="sortValue">0.31325302</span>31.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="31.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:31.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.Tier</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/Tier.html?id=112#Tier"             title="Tier" name="sl-27">org.wso2.carbon.apimgt.api.model.Tier</a>
+        </td>
+                <td>
+            <span class="sortValue">0.30666667</span>30.7%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="30.7% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:30.7%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.issuers.APIMTokenIssuer</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/issuers/APIMTokenIssuer.html?id=112#APIMTokenIssuer"             title="APIMTokenIssuer" name="sl-50">org.wso2.carbon.apimgt.keymgt.issuers.APIMTokenIssuer</a>
+        </td>
+                <td>
+            <span class="sortValue">0.30208334</span>30.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="30.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:30.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.workflow.APIStateWorkflowDTO</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/workflow/APIStateWorkflowDTO.html?id=112#APIStateWorkflowDTO"             title="APIStateWorkflowDTO" name="sl-23">org.wso2.carbon.apimgt.impl.workflow.APIStateWorkflowDTO</a>
+        </td>
+                <td>
+            <span class="sortValue">0.3</span>30%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="30% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:30%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.ConditionGroupDTO._Fields</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/ConditionGroupDTO.html?id=112#ConditionGroupDTO._Fields"             title="ConditionGroupDTO._Fields" name="sl-46">org.wso2.carbon.apimgt.impl.generated.thrift.ConditionGroupDTO._Fields</a>
+        </td>
+                <td>
+            <span class="sortValue">0.2962963</span>29.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="29.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:29.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.AuthenticatorService.authenticate_args._Fields</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/thrift/AuthenticatorService.html?id=112#AuthenticatorService.authenticate_args._Fields"             title="AuthenticatorService.authenticate_args._Fields" name="sl-188">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.AuthenticatorService.authenticate_args._Fields</a>
+        </td>
+                <td>
+            <span class="sortValue">0.2962963</span>29.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="29.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:29.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.AuthenticatorService.authenticate_result._Fields</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/thrift/AuthenticatorService.html?id=112#AuthenticatorService.authenticate_result._Fields"             title="AuthenticatorService.authenticate_result._Fields" name="sl-580">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.AuthenticatorService.authenticate_result._Fields</a>
+        </td>
+                <td>
+            <span class="sortValue">0.2962963</span>29.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="29.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:29.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.ext.APIManagerCacheExtensionHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/ext/APIManagerCacheExtensionHandler.html?id=112#APIManagerCacheExtensionHandler"             title="APIManagerCacheExtensionHandler" name="sl-24">org.wso2.carbon.apimgt.gateway.handlers.ext.APIManagerCacheExtensionHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.2857143</span>28.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="28.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:28.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_result._Fields</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.validateKey_result._Fields"             title="APIKeyValidationService.validateKey_result._Fields" name="sl-1482">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_result._Fields</a>
+        </td>
+                <td>
+            <span class="sortValue">0.27586207</span>27.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="27.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:27.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_args._Fields</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.getAllURITemplates_args._Fields"             title="APIKeyValidationService.getAllURITemplates_args._Fields" name="sl-2041">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_args._Fields</a>
+        </td>
+                <td>
+            <span class="sortValue">0.27586207</span>27.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="27.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:27.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_result._Fields</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.getAllURITemplates_result._Fields"             title="APIKeyValidationService.getAllURITemplates_result._Fields" name="sl-2579">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_result._Fields</a>
+        </td>
+                <td>
+            <span class="sortValue">0.27586207</span>27.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="27.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:27.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.analytics.APIMgtGoogleAnalyticsTrackingHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/analytics/APIMgtGoogleAnalyticsTrackingHandler.html?id=112#APIMgtGoogleAnalyticsTrackingHandler"             title="APIMgtGoogleAnalyticsTrackingHandler" name="sl-52">org.wso2.carbon.apimgt.gateway.handlers.analytics.APIMgtGoogleAnalyticsTrackingHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.26717559</span>26.7%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="26.7% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:26.7%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.workflow.AbstractApplicationRegistrationWorkflowExecutor</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/workflow/AbstractApplicationRegistrationWorkflowExecutor.html?id=112#AbstractApplicationRegistrationWorkflowExecutor"             title="AbstractApplicationRegistrationWorkflowExecutor" name="sl-42">org.wso2.carbon.apimgt.impl.workflow.AbstractApplicationRegistrationWorkflowExecutor</a>
+        </td>
+                <td>
+            <span class="sortValue">0.26666668</span>26.7%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="26.7% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:26.7%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.jms.listener.utils.JMSMessageListener</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/jms/listener/utils/JMSMessageListener.html?id=112#JMSMessageListener"             title="JMSMessageListener" name="sl-43">org.wso2.carbon.apimgt.jms.listener.utils.JMSMessageListener</a>
+        </td>
+                <td>
+            <span class="sortValue">0.26490065</span>26.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="26.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:26.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.SubscribedAPI</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/SubscribedAPI.html?id=112#SubscribedAPI"             title="SubscribedAPI" name="sl-28">org.wso2.carbon.apimgt.api.model.SubscribedAPI</a>
+        </td>
+                <td>
+            <span class="sortValue">0.2638889</span>26.4%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="26.4% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:26.4%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.UserAwareAPIConsumer</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/UserAwareAPIConsumer.html?id=112#UserAwareAPIConsumer"             title="UserAwareAPIConsumer" name="sl-35">org.wso2.carbon.apimgt.impl.UserAwareAPIConsumer</a>
+        </td>
+                <td>
+            <span class="sortValue">0.26190478</span>26.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="26.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:26.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.ThriftKeyValidatorClientPool</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/thrift/ThriftKeyValidatorClientPool.html?id=112#ThriftKeyValidatorClientPool"             title="ThriftKeyValidatorClientPool" name="sl-28">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.ThriftKeyValidatorClientPool</a>
+        </td>
+                <td>
+            <span class="sortValue">0.24324325</span>24.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="24.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:24.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.workflow.WorkflowExecutor</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/workflow/WorkflowExecutor.html?id=112#WorkflowExecutor"             title="WorkflowExecutor" name="sl-37">org.wso2.carbon.apimgt.impl.workflow.WorkflowExecutor</a>
+        </td>
+                <td>
+            <span class="sortValue">0.24242425</span>24.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="24.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:24.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.utils.APIUtil</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/utils/APIUtil.html?id=112#APIUtil"             title="APIUtil" name="sl-235">org.wso2.carbon.apimgt.impl.utils.APIUtil</a>
+        </td>
+                <td>
+            <span class="sortValue">0.22562793</span>22.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="22.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:22.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.service.APIGatewayAdmin</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/service/APIGatewayAdmin.html?id=112#APIGatewayAdmin"             title="APIGatewayAdmin" name="sl-46">org.wso2.carbon.apimgt.gateway.service.APIGatewayAdmin</a>
+        </td>
+                <td>
+            <span class="sortValue">0.22047244</span>22%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="22% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:22%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.APISecurityConstants</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/APISecurityConstants.html?id=112#APISecurityConstants"             title="APISecurityConstants" name="sl-19">org.wso2.carbon.apimgt.gateway.handlers.security.APISecurityConstants</a>
+        </td>
+                <td>
+            <span class="sortValue">0.21212122</span>21.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="21.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:21.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.handlers.ExtendedPasswordGrantHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/handlers/ExtendedPasswordGrantHandler.html?id=112#ExtendedPasswordGrantHandler"             title="ExtendedPasswordGrantHandler" name="sl-53">org.wso2.carbon.apimgt.keymgt.handlers.ExtendedPasswordGrantHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.20588236</span>20.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="20.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:20.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_args._Fields</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.validateKey_args._Fields"             title="APIKeyValidationService.validateKey_args._Fields" name="sl-467">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_args._Fields</a>
+        </td>
+                <td>
+            <span class="sortValue">0.20512821</span>20.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="20.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:20.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.utils.APIGatewayAdminClient</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/utils/APIGatewayAdminClient.html?id=112#APIGatewayAdminClient"             title="APIGatewayAdminClient" name="sl-42">org.wso2.carbon.apimgt.impl.utils.APIGatewayAdminClient</a>
+        </td>
+                <td>
+            <span class="sortValue">0.20465116</span>20.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="20.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:20.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.throttling.ThrottleHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/throttling/ThrottleHandler.html?id=112#ThrottleHandler"             title="ThrottleHandler" name="sl-83">org.wso2.carbon.apimgt.gateway.handlers.throttling.ThrottleHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.20119224</span>20.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="20.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:20.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.APIManagerFactory</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/APIManagerFactory.html?id=112#APIManagerFactory"             title="APIManagerFactory" name="sl-29">org.wso2.carbon.apimgt.impl.APIManagerFactory</a>
+        </td>
+                <td>
+            <span class="sortValue">0.2</span>20%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="20% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:20%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.URITemplate._Fields</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/URITemplate.html?id=112#URITemplate._Fields"             title="URITemplate._Fields" name="sl-60">org.wso2.carbon.apimgt.impl.generated.thrift.URITemplate._Fields</a>
+        </td>
+                <td>
+            <span class="sortValue">0.19512194</span>19.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="19.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:19.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.service.APIKeyMgtSubscriberService</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/service/APIKeyMgtSubscriberService.html?id=112#APIKeyMgtSubscriberService"             title="APIKeyMgtSubscriberService" name="sl-94">org.wso2.carbon.apimgt.keymgt.service.APIKeyMgtSubscriberService</a>
+        </td>
+                <td>
+            <span class="sortValue">0.19250426</span>19.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="19.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:19.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.utils.StandaloneAuthorizationManagerClient</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/utils/StandaloneAuthorizationManagerClient.html?id=112#StandaloneAuthorizationManagerClient"             title="StandaloneAuthorizationManagerClient" name="sl-29">org.wso2.carbon.apimgt.impl.utils.StandaloneAuthorizationManagerClient</a>
+        </td>
+                <td>
+            <span class="sortValue">0.1764706</span>17.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="17.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:17.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.Utils</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/Utils.html?id=112#Utils"             title="Utils" name="sl-45">org.wso2.carbon.apimgt.gateway.handlers.Utils</a>
+        </td>
+                <td>
+            <span class="sortValue">0.17605634</span>17.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="17.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:17.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.utils.AuthorizationManager</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/utils/AuthorizationManager.html?id=112#AuthorizationManager"             title="AuthorizationManager" name="sl-30">org.wso2.carbon.apimgt.impl.utils.AuthorizationManager</a>
+        </td>
+                <td>
+            <span class="sortValue">0.17567568</span>17.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="17.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:17.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.jms.listener.internal.ServiceReferenceHolder</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/jms/listener/internal/ServiceReferenceHolder.html?id=112#ServiceReferenceHolder"             title="ServiceReferenceHolder" name="sl-31">org.wso2.carbon.apimgt.jms.listener.internal.ServiceReferenceHolder</a>
+        </td>
+                <td>
+            <span class="sortValue">0.17391305</span>17.4%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="17.4% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:17.4%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.dto.Environment</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/dto/Environment.html?id=112#Environment"             title="Environment" name="sl-23">org.wso2.carbon.apimgt.impl.dto.Environment</a>
+        </td>
+                <td>
+            <span class="sortValue">0.1724138</span>17.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="17.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:17.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.policy.ApplicationPolicy</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/policy/ApplicationPolicy.html?id=112#ApplicationPolicy"             title="ApplicationPolicy" name="sl-21">org.wso2.carbon.apimgt.api.model.policy.ApplicationPolicy</a>
+        </td>
+                <td>
+            <span class="sortValue">0.16666667</span>16.7%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="16.7% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:16.7%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.dao.ApiMgtDAO</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/dao/ApiMgtDAO.html?id=112#ApiMgtDAO"             title="ApiMgtDAO" name="sl-135">org.wso2.carbon.apimgt.impl.dao.ApiMgtDAO</a>
+        </td>
+                <td>
+            <span class="sortValue">0.16265208</span>16.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="16.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:16.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager.MessageListenerTask</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/jms/listener/utils/JMSTaskManager.html?id=112#JMSTaskManager.MessageListenerTask"             title="JMSTaskManager.MessageListenerTask" name="sl-418">org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager.MessageListenerTask</a>
+        </td>
+                <td>
+            <span class="sortValue">0.1618497</span>16.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="16.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:16.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.dto.ThrottleProperties</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/dto/ThrottleProperties.html?id=112#ThrottleProperties"             title="ThrottleProperties" name="sl-23">org.wso2.carbon.apimgt.impl.dto.ThrottleProperties</a>
+        </td>
+                <td>
+            <span class="sortValue">0.15625</span>15.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="15.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:15.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.APIGatewayManager</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/APIGatewayManager.html?id=112#APIGatewayManager"             title="APIGatewayManager" name="sl-52">org.wso2.carbon.apimgt.impl.APIGatewayManager</a>
+        </td>
+                <td>
+            <span class="sortValue">0.14913958</span>14.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="14.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:14.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.UserAwareAPIProvider</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/UserAwareAPIProvider.html?id=112#UserAwareAPIProvider"             title="UserAwareAPIProvider" name="sl-48">org.wso2.carbon.apimgt.impl.UserAwareAPIProvider</a>
+        </td>
+                <td>
+            <span class="sortValue">0.14801444</span>14.8%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="14.8% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:14.8%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.APIProviderImpl</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/APIProviderImpl.html?id=112#APIProviderImpl"             title="APIProviderImpl" name="sl-190">org.wso2.carbon.apimgt.impl.APIProviderImpl</a>
+        </td>
+                <td>
+            <span class="sortValue">0.14339814</span>14.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="14.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:14.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationInfoDTO</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationInfoDTO.html?id=112#APIKeyValidationInfoDTO"             title="APIKeyValidationInfoDTO" name="sl-30">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationInfoDTO</a>
+        </td>
+                <td>
+            <span class="sortValue">0.13970588</span>14%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="14% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:14%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_args</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.getAllURITemplates_args"             title="APIKeyValidationService.getAllURITemplates_args" name="sl-2023">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_args</a>
+        </td>
+                <td>
+            <span class="sortValue">0.13937283</span>13.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="13.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:13.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.utils.LRUCache</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/utils/LRUCache.html?id=112#LRUCache"             title="LRUCache" name="sl-28">org.wso2.carbon.apimgt.impl.utils.LRUCache</a>
+        </td>
+                <td>
+            <span class="sortValue">0.1388889</span>13.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="13.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:13.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.utils.SequenceAdminServiceClient</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/utils/SequenceAdminServiceClient.html?id=112#SequenceAdminServiceClient"             title="SequenceAdminServiceClient" name="sl-30">org.wso2.carbon.apimgt.gateway.utils.SequenceAdminServiceClient</a>
+        </td>
+                <td>
+            <span class="sortValue">0.1388889</span>13.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="13.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:13.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.URITemplate</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/URITemplate.html?id=112#URITemplate"             title="URITemplate" name="sl-30">org.wso2.carbon.apimgt.impl.generated.thrift.URITemplate</a>
+        </td>
+                <td>
+            <span class="sortValue">0.13125846</span>13.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="13.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:13.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.AuthenticatorService.authenticate_args</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/thrift/AuthenticatorService.html?id=112#AuthenticatorService.authenticate_args"             title="AuthenticatorService.authenticate_args" name="sl-178">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.AuthenticatorService.authenticate_args</a>
+        </td>
+                <td>
+            <span class="sortValue">0.13043478</span>13%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="13% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:13%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.util.APIKeyMgtUtil</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/util/APIKeyMgtUtil.html?id=112#APIKeyMgtUtil"             title="APIKeyMgtUtil" name="sl-60">org.wso2.carbon.apimgt.keymgt.util.APIKeyMgtUtil</a>
+        </td>
+                <td>
+            <span class="sortValue">0.12941177</span>12.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="12.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:12.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.KeyManagerConfiguration</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/KeyManagerConfiguration.html?id=112#KeyManagerConfiguration"             title="KeyManagerConfiguration" name="sl-30">org.wso2.carbon.apimgt.api.model.KeyManagerConfiguration</a>
+        </td>
+                <td>
+            <span class="sortValue">0.125</span>12.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="12.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:12.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_args</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.validateKey_args"             title="APIKeyValidationService.validateKey_args" name="sl-439">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_args</a>
+        </td>
+                <td>
+            <span class="sortValue">0.12345679</span>12.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="12.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:12.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.ConditionGroupDTO</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/ConditionGroupDTO.html?id=112#ConditionGroupDTO"             title="ConditionGroupDTO" name="sl-30">org.wso2.carbon.apimgt.impl.generated.thrift.ConditionGroupDTO</a>
+        </td>
+                <td>
+            <span class="sortValue">0.12</span>12%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="12% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:12%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.utils.RESTAPIAdminClient</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/utils/RESTAPIAdminClient.html?id=112#RESTAPIAdminClient"             title="RESTAPIAdminClient" name="sl-23">org.wso2.carbon.apimgt.gateway.utils.RESTAPIAdminClient</a>
+        </td>
+                <td>
+            <span class="sortValue">0.11904762</span>11.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="11.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:11.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.keymgt.util.APIKeyMgtDataHolder</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/keymgt/util/APIKeyMgtDataHolder.html?id=112#APIKeyMgtDataHolder"             title="APIKeyMgtDataHolder" name="sl-36">org.wso2.carbon.apimgt.keymgt.util.APIKeyMgtDataHolder</a>
+        </td>
+                <td>
+            <span class="sortValue">0.11764706</span>11.8%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="11.8% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:11.8%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.AuthenticatorService.authenticate_result</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/security/thrift/AuthenticatorService.html?id=112#AuthenticatorService.authenticate_result"             title="AuthenticatorService.authenticate_result" name="sl-570">org.wso2.carbon.apimgt.gateway.handlers.security.thrift.AuthenticatorService.authenticate_result</a>
+        </td>
+                <td>
+            <span class="sortValue">0.114285715</span>11.4%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="11.4% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:11.4%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationInfoDTO._Fields</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationInfoDTO.html?id=112#APIKeyValidationInfoDTO._Fields"             title="APIKeyValidationInfoDTO._Fields" name="sl-90">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationInfoDTO._Fields</a>
+        </td>
+                <td>
+            <span class="sortValue">0.112676054</span>11.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="11.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:11.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/hostobjects/APIProviderHostObject.html?id=112#APIProviderHostObject"             title="APIProviderHostObject" name="sl-144">org.wso2.carbon.apimgt.hostobjects.APIProviderHostObject</a>
+        </td>
+                <td>
+            <span class="sortValue">0.100365795</span>10%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="10% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:10%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.hostobjects.EncodeHostObject</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/hostobjects/EncodeHostObject.html?id=112#EncodeHostObject"             title="EncodeHostObject" name="sl-30">org.wso2.carbon.apimgt.hostobjects.EncodeHostObject</a>
+        </td>
+                <td>
+            <span class="sortValue">0.1</span>10%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="10% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:10%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.APIConsumerImpl</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/APIConsumerImpl.html?id=112#APIConsumerImpl"             title="APIConsumerImpl" name="sl-140">org.wso2.carbon.apimgt.impl.APIConsumerImpl</a>
+        </td>
+                <td>
+            <span class="sortValue">0.0794608</span>7.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="7.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:7.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.api.model.CORSConfiguration</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/api/model/CORSConfiguration.html?id=112#CORSConfiguration"             title="CORSConfiguration" name="sl-26">org.wso2.carbon.apimgt.api.model.CORSConfiguration</a>
+        </td>
+                <td>
+            <span class="sortValue">0.07692308</span>7.7%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="7.7% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:7.7%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.hostobjects.MutualAuthHostObject</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/hostobjects/MutualAuthHostObject.html?id=112#MutualAuthHostObject"             title="MutualAuthHostObject" name="sl-34">org.wso2.carbon.apimgt.hostobjects.MutualAuthHostObject</a>
+        </td>
+                <td>
+            <span class="sortValue">0.07692308</span>7.7%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="7.7% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:7.7%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_result</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.validateKey_result"             title="APIKeyValidationService.validateKey_result" name="sl-1464">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.validateKey_result</a>
+        </td>
+                <td>
+            <span class="sortValue">0.07636364</span>7.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="7.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:7.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.hostobjects.HostObjectUtils</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/hostobjects/HostObjectUtils.html?id=112#HostObjectUtils"             title="HostObjectUtils" name="sl-54">org.wso2.carbon.apimgt.hostobjects.HostObjectUtils</a>
+        </td>
+                <td>
+            <span class="sortValue">0.07377049</span>7.4%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="7.4% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:7.4%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_result</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/generated/thrift/APIKeyValidationService.html?id=112#APIKeyValidationService.getAllURITemplates_result"             title="APIKeyValidationService.getAllURITemplates_result" name="sl-2561">org.wso2.carbon.apimgt.impl.generated.thrift.APIKeyValidationService.getAllURITemplates_result</a>
+        </td>
+                <td>
+            <span class="sortValue">0.07191781</span>7.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="7.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:7.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.factory.KeyManagerHolder</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/factory/KeyManagerHolder.html?id=112#KeyManagerHolder"             title="KeyManagerHolder" name="sl-52">org.wso2.carbon.apimgt.impl.factory.KeyManagerHolder</a>
+        </td>
+                <td>
+            <span class="sortValue">0.06896552</span>6.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="6.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:6.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.handlers.analytics.APIMgtResponseHandler</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/handlers/analytics/APIMgtResponseHandler.html?id=112#APIMgtResponseHandler"             title="APIMgtResponseHandler" name="sl-52">org.wso2.carbon.apimgt.gateway.handlers.analytics.APIMgtResponseHandler</a>
+        </td>
+                <td>
+            <span class="sortValue">0.06896552</span>6.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="6.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:6.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.throttling.ThrottleDataHolder</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/throttling/ThrottleDataHolder.html?id=112#ThrottleDataHolder"             title="ThrottleDataHolder" name="sl-35">org.wso2.carbon.apimgt.gateway.throttling.ThrottleDataHolder</a>
+        </td>
+                <td>
+            <span class="sortValue">0.06666667</span>6.7%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="6.7% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:6.7%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.utils.EndpointAdminServiceClient</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/utils/EndpointAdminServiceClient.html?id=112#EndpointAdminServiceClient"             title="EndpointAdminServiceClient" name="sl-34">org.wso2.carbon.apimgt.gateway.utils.EndpointAdminServiceClient</a>
+        </td>
+                <td>
+            <span class="sortValue">0.06329114</span>6.3%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="6.3% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:6.3%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.dto.WorkflowProperties</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/dto/WorkflowProperties.html?id=112#WorkflowProperties"             title="WorkflowProperties" name="sl-21">org.wso2.carbon.apimgt.impl.dto.WorkflowProperties</a>
+        </td>
+                <td>
+            <span class="sortValue">0.055555556</span>5.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="5.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:5.6%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.usage.publisher.internal.UsageComponent</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/usage/publisher/internal/UsageComponent.html?id=112#UsageComponent"             title="UsageComponent" name="sl-41">org.wso2.carbon.apimgt.usage.publisher.internal.UsageComponent</a>
+        </td>
+                <td>
+            <span class="sortValue">0.054054055</span>5.4%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="5.4% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:5.4%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.hostobjects.APIStoreHostObject</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/hostobjects/APIStoreHostObject.html?id=112#APIStoreHostObject"             title="APIStoreHostObject" name="sl-134">org.wso2.carbon.apimgt.hostobjects.APIStoreHostObject</a>
+        </td>
+                <td>
+            <span class="sortValue">0.051532034</span>5.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="5.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:5.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.APIManagerAnalyticsConfiguration</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/APIManagerAnalyticsConfiguration.html?id=112#APIManagerAnalyticsConfiguration"             title="APIManagerAnalyticsConfiguration" name="sl-24">org.wso2.carbon.apimgt.impl.APIManagerAnalyticsConfiguration</a>
+        </td>
+                <td>
+            <span class="sortValue">0.05</span>5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.AbstractAPIManager</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/AbstractAPIManager.html?id=112#AbstractAPIManager"             title="AbstractAPIManager" name="sl-116">org.wso2.carbon.apimgt.impl.AbstractAPIManager</a>
+        </td>
+                <td>
+            <span class="sortValue">0.04459377</span>4.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="4.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:4.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.gateway.utils.GatewayUtils</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/gateway/utils/GatewayUtils.html?id=112#GatewayUtils"             title="GatewayUtils" name="sl-64">org.wso2.carbon.apimgt.gateway.utils.GatewayUtils</a>
+        </td>
+                <td>
+            <span class="sortValue">0.042194095</span>4.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="4.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:4.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/jms/listener/utils/JMSTaskManager.html?id=112#JMSTaskManager"             title="JMSTaskManager" name="sl-50">org.wso2.carbon.apimgt.jms.listener.utils.JMSTaskManager</a>
+        </td>
+                <td>
+            <span class="sortValue">0.04113924</span>4.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="4.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:4.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.usage.publisher.DataPublisherUtil</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/usage/publisher/DataPublisherUtil.html?id=112#DataPublisherUtil"             title="DataPublisherUtil" name="sl-38">org.wso2.carbon.apimgt.usage.publisher.DataPublisherUtil</a>
+        </td>
+                <td>
+            <span class="sortValue">0.032258064</span>3.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="3.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:3.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.hostobjects.internal.HostObjectComponent</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/hostobjects/internal/HostObjectComponent.html?id=112#HostObjectComponent"             title="HostObjectComponent" name="sl-53">org.wso2.carbon.apimgt.hostobjects.internal.HostObjectComponent</a>
+        </td>
+                <td>
+            <span class="sortValue">0.028985508</span>2.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="2.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:2.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.authenticator.oidc.OIDCAuthenticator</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/authenticator/oidc/OIDCAuthenticator.html?id=112#OIDCAuthenticator"             title="OIDCAuthenticator" name="sl-66">org.wso2.carbon.apimgt.authenticator.oidc.OIDCAuthenticator</a>
+        </td>
+                <td>
+            <span class="sortValue">0.023529412</span>2.4%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="2.4% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:2.4%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.APIManagerConfiguration</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/APIManagerConfiguration.html?id=112#APIManagerConfiguration"             title="APIManagerConfiguration" name="sl-66">org.wso2.carbon.apimgt.impl.APIManagerConfiguration</a>
+        </td>
+                <td>
+            <span class="sortValue">0.021961933</span>2.2%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="2.2% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:2.2%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.certificatemgt.CertificateManagerImpl</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/certificatemgt/CertificateManagerImpl.html?id=112#CertificateManagerImpl"             title="CertificateManagerImpl" name="sl-47">org.wso2.carbon.apimgt.impl.certificatemgt.CertificateManagerImpl</a>
+        </td>
+                <td>
+            <span class="sortValue">0.019417476</span>1.9%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="1.9% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:1.9%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.utils.CertificateMgtUtils</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/utils/CertificateMgtUtils.html?id=112#CertificateMgtUtils"             title="CertificateMgtUtils" name="sl-50">org.wso2.carbon.apimgt.impl.utils.CertificateMgtUtils</a>
+        </td>
+                <td>
+            <span class="sortValue">0.015151516</span>1.5%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="1.5% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:1.5%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.workflow.TenantWorkflowConfigHolder</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/workflow/TenantWorkflowConfigHolder.html?id=112#TenantWorkflowConfigHolder"             title="TenantWorkflowConfigHolder" name="sl-46">org.wso2.carbon.apimgt.impl.workflow.TenantWorkflowConfigHolder</a>
+        </td>
+                <td>
+            <span class="sortValue">0.010695187</span>1.1%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="1.1% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:1.1%"></div></div></div>        </td>
+    </tr>
+
+        <tr>
+        <td>
+            <span class="sortValue">org.wso2.carbon.apimgt.impl.internal.APIManagerComponent</span>
+            &#160;&#160;<a             href="../../../../../../org/wso2/carbon/apimgt/impl/internal/APIManagerComponent.html?id=112#APIManagerComponent"             title="APIManagerComponent" name="sl-125">org.wso2.carbon.apimgt.impl.internal.APIManagerComponent</a>
+        </td>
+                <td>
+            <span class="sortValue">0.006006006</span>0.6%
+        </td>
+        <td class="align-middle" style="width: 100%" colspan="3">
+                        <div>
+<div title="0.6% Covered" style="min-width:40px;" class="barNegative contribBarNegative contribBarNegative"><div class="barPositive contribBarPositive contribBarPositive" style="width:0.6%"></div></div></div>        </td>
+    </tr>
+ 
+        </tbody>
+    </table>
+
+                        </div> <!-- class="aui-page-panel-content-clover" -->
+                    <footer id="footer" role="contentinfo">
+    <section class="footer-body">
+        <ul>
+            <li>
+                Report generated by <a target="_new" href="http://openclover.org">OpenClover</a> v 4.3.1
+                on Fri Jan 4 2019 02:23:02 IST using coverage data from Fri Jan 4 2019 02:22:53 IST.
+            </li>
+        </ul>
+        <ul>
+            <li>Clover free edition. </li>
+        </ul>
+    </section>
+</footer>                </section> <!-- class="aui-page-panel-content" -->
+            </div> <!-- class="aui-page-panel-inner" -->
+        </div> <!-- class="aui-page-panel" -->
+    </div> <!-- id="page" -->
+</body>
+</html>

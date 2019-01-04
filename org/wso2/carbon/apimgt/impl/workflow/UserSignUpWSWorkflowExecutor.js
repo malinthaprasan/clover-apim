@@ -1,7 +1,7 @@
 var clover = new Object();
 
 // JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
-clover.pageData = {"classes":[{"el":252,"id":43053,"methods":[{"el":55,"sc":5,"sl":52},{"el":89,"sc":5,"sl":57},{"el":147,"sc":5,"sl":91},{"el":172,"sc":5,"sl":149},{"el":214,"sc":5,"sl":181},{"el":219,"sc":5,"sl":216},{"el":223,"sc":5,"sl":221},{"el":227,"sc":5,"sl":225},{"el":231,"sc":5,"sl":229},{"el":235,"sc":5,"sl":233},{"el":239,"sc":5,"sl":237},{"el":243,"sc":5,"sl":241},{"el":247,"sc":5,"sl":245},{"el":251,"sc":5,"sl":249}],"name":"UserSignUpWSWorkflowExecutor","sl":45}]}
+clover.pageData = {"classes":[{"el":252,"id":45436,"methods":[{"el":55,"sc":5,"sl":52},{"el":89,"sc":5,"sl":57},{"el":147,"sc":5,"sl":91},{"el":172,"sc":5,"sl":149},{"el":214,"sc":5,"sl":181},{"el":219,"sc":5,"sl":216},{"el":223,"sc":5,"sl":221},{"el":227,"sc":5,"sl":225},{"el":231,"sc":5,"sl":229},{"el":235,"sc":5,"sl":233},{"el":239,"sc":5,"sl":237},{"el":243,"sc":5,"sl":241},{"el":247,"sc":5,"sl":245},{"el":251,"sc":5,"sl":249}],"name":"UserSignUpWSWorkflowExecutor","sl":45}]}
 
 // JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
 clover.testTargets = {}

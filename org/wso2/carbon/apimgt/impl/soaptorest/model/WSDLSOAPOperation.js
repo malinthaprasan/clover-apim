@@ -1,7 +1,7 @@
 var clover = new Object();
 
 // JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
-clover.pageData = {"classes":[{"el":130,"id":33789,"methods":[{"el":41,"sc":5,"sl":40},{"el":45,"sc":5,"sl":43},{"el":49,"sc":5,"sl":47},{"el":53,"sc":5,"sl":51},{"el":57,"sc":5,"sl":55},{"el":61,"sc":5,"sl":59},{"el":65,"sc":5,"sl":63},{"el":69,"sc":5,"sl":67},{"el":73,"sc":5,"sl":71},{"el":77,"sc":5,"sl":75},{"el":81,"sc":5,"sl":79},{"el":85,"sc":5,"sl":83},{"el":89,"sc":5,"sl":87},{"el":93,"sc":5,"sl":91},{"el":97,"sc":5,"sl":95},{"el":101,"sc":5,"sl":99},{"el":105,"sc":5,"sl":103},{"el":109,"sc":5,"sl":107},{"el":113,"sc":5,"sl":111},{"el":117,"sc":5,"sl":115},{"el":121,"sc":5,"sl":119},{"el":125,"sc":5,"sl":123},{"el":129,"sc":5,"sl":127}],"name":"WSDLSOAPOperation","sl":27}]}
+clover.pageData = {"classes":[{"el":130,"id":36172,"methods":[{"el":41,"sc":5,"sl":40},{"el":45,"sc":5,"sl":43},{"el":49,"sc":5,"sl":47},{"el":53,"sc":5,"sl":51},{"el":57,"sc":5,"sl":55},{"el":61,"sc":5,"sl":59},{"el":65,"sc":5,"sl":63},{"el":69,"sc":5,"sl":67},{"el":73,"sc":5,"sl":71},{"el":77,"sc":5,"sl":75},{"el":81,"sc":5,"sl":79},{"el":85,"sc":5,"sl":83},{"el":89,"sc":5,"sl":87},{"el":93,"sc":5,"sl":91},{"el":97,"sc":5,"sl":95},{"el":101,"sc":5,"sl":99},{"el":105,"sc":5,"sl":103},{"el":109,"sc":5,"sl":107},{"el":113,"sc":5,"sl":111},{"el":117,"sc":5,"sl":115},{"el":121,"sc":5,"sl":119},{"el":125,"sc":5,"sl":123},{"el":129,"sc":5,"sl":127}],"name":"WSDLSOAPOperation","sl":27}]}
 
 // JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
 clover.testTargets = {}

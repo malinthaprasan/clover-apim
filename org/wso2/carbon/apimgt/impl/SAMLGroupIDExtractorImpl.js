@@ -1,7 +1,7 @@
 var clover = new Object();
 
 // JSON: {classes : [{name, id, sl, el,  methods : [{sl, el}, ...]}, ...]}
-clover.pageData = {"classes":[{"el":326,"id":10721,"methods":[{"el":130,"sc":5,"sl":60},{"el":149,"sc":5,"sl":137},{"el":187,"sc":5,"sl":157},{"el":205,"sc":5,"sl":195},{"el":215,"sc":5,"sl":213},{"el":225,"sc":5,"sl":223},{"el":229,"sc":5,"sl":227},{"el":325,"sc":5,"sl":231}],"name":"SAMLGroupIDExtractorImpl","sl":56}]}
+clover.pageData = {"classes":[{"el":326,"id":13104,"methods":[{"el":130,"sc":5,"sl":60},{"el":149,"sc":5,"sl":137},{"el":187,"sc":5,"sl":157},{"el":205,"sc":5,"sl":195},{"el":215,"sc":5,"sl":213},{"el":225,"sc":5,"sl":223},{"el":229,"sc":5,"sl":227},{"el":325,"sc":5,"sl":231}],"name":"SAMLGroupIDExtractorImpl","sl":56}]}
 
 // JSON: {test_ID : {"methods": [ID1, ID2, ID3...], "name" : "testXXX() void"}, ...};
 clover.testTargets = {}
